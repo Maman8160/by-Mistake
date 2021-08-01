@@ -21,6 +21,7 @@ function setup() {
   iron.scale =0.3;
 
   // ​iron.debug = true;
+  iron.setCollider("rectangle", 100, -50, 400, 410);
   
   ground = createSprite(200,585,1500,10);
   
